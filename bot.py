@@ -70,7 +70,7 @@ async def handle_menu(update: Update, ctx: ContextTypes.DEFAULT_TYPE) -> int:
 # ===== تشغيل البوت =====
 if __name__ == "__main__":
     import os, asyncio
-    TOKEN = os.getenv("BOT_TOKEN")          # أضف المتغيّر في إعدادات Render
+    TOKEN = os.getenv("7779722520:AAHewr5yjPC5jYemSDtEjtjtIEwzbC14HcQ")          # أضف المتغيّر في إعدادات Render
     app = ApplicationBuilder().token(TOKEN).build()
 
     conv = ConversationHandler(
