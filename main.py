@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder
 from dotenv import load_dotenv
 import conv_handler
 import language ,menu
-import Rate_Limiter
+import rate_Limiter
 import init_db
 
 # تحميل متغيرات البيئة
