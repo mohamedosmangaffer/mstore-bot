@@ -3,10 +3,10 @@ import asyncio
 from telegram.ext import ApplicationBuilder
 from dotenv import load_dotenv
 
-from handlers.start import conv_handler
-from handlers.language import lang_cmd, help_cmd, menu_cmd
-from middleware.rate_limiter import RateLimiter
-from db.database import init_db
+from start import conv_handler
+from language import lang_cmd, help_cmd, menu_cmd
+from rate_limiter import RateLimiter
+from database import init_db
 
 # تحميل متغيرات البيئة
 load_dotenv()
