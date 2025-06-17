@@ -1,6 +1,6 @@
 import os
 import asyncio
-import ApplicationBuilder
+from telegram.ext import ApplicationBuilder
 import load_dotenv
 import conv_handler
 import lang_cmd, help_cmd, menu_cmd
