@@ -3,7 +3,7 @@ import asyncio
 from telegram.ext import ApplicationBuilder
 from dotenv import load_dotenv
 import conv_handler
-import lang_cmd, help_cmd, menu_cmd
+import menu
 import RateLimiter
 import init_db
 
