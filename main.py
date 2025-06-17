@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import conv_handler
 import language ,menu
 import rate_limiter
-import init_db
+import database
 
 # تحميل متغيرات البيئة
 load_dotenv()
